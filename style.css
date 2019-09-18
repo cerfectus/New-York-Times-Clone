@@ -27,11 +27,20 @@ background-color: #6288a5;
 
 .nav-bar{
     width: 100%;
-    display:flex;
     border: 2px solid blue ;
+    overflow: hidden;
 }
 .align-right{
-    float: right;
+  float: right;
+
+}
+.align-left {
+  float:left;
+}
+.align-center {
+  position: relative;
+  left: 350px;
+
 
 }
 .svg-icon {
