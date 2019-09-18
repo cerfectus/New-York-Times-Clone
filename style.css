@@ -40,6 +40,7 @@ background-color: #6288a5;
 .align-center {
   position: relative;
   left: 350px;
+  float:left;
 
 
 }
@@ -58,3 +59,25 @@ background-color: #6288a5;
     stroke: #4691f6;
     stroke-width: 1;
   }
+  .logo-name{
+    width: 200px;
+    height: 25%;
+    display: inline;
+  }
+.align-section{
+text-align: center
+}
+.text{
+  text-align: left;
+  position: relative;
+  left: 200px;
+  font-size: 0.9375rem;
+  margin: 0 0 0 0;
+}
+.text1{
+  text-align: left;
+  position: relative;
+  left: 200px;
+  font-size: 0.75rem;
+  margin-top: 0%;
+}
