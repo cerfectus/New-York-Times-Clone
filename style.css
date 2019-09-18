@@ -1,0 +1,36 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+.image-size{
+width: 20px;
+height: 20px;
+}
+.btn-size{
+    width: 20px;
+    height: 20px;
+}
+.btn-color{
+background-color: #6288a5;
+}
+
+.nav-bar{
+    width: 100%;
+    display:flex;
+    border: 2px solid blue ;
+}
+.align-right{
+    float: right;
+
+}
