@@ -81,3 +81,18 @@ text-align: center
   font-size: 0.75rem;
   margin-top: 0%;
 }
+
+.main-container {
+
+  margin: 10% 30% 10% 30%;
+
+}
+
+.head-line {
+  width: 100%;
+}
+
+.head-line img {
+  width: 75%;
+  height: auto;
+}
