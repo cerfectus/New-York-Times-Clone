@@ -13,68 +13,75 @@
   padding: 20px;
   font-size: 150%;
 }
-.image-size{
-width: 20px;
-height: 20px;
+.image-size {
+  width: 20px;
+  height: 20px;
 }
-.btn-size{
-    width: 20px;
-    height: 20px;
+.btn-size {
+  width: 20px;
+  height: 20px;
 }
-.btn-color{
-background-color: #6288a5;
+.btn-color {
+  background-color: #6288a5;
+  color: white;
+  padding: 10px 10px 10px 10px
 }
 
-.nav-bar{
-    width: 100%;
-    border: 2px solid blue ;
-    overflow: hidden;
+.nav-bar {
+  width: 100%;
+  -moz-box-shadow: 0 8px 6px -6px #999;   
+  box-shadow: 0 8px 6px -6px #999;
+  overflow: hidden;
+  padding-top: 10px;
 }
-.align-right{
+.align-right {
   float: right;
-
+  position: relative;
+  bottom: 10px;
 }
 .align-left {
-  float:left;
+  float: left;
 }
 .align-center {
   position: relative;
   left: 350px;
-  float:left;
-
-
+  float: left;
 }
 .svg-icon {
-    width: 1em;
-    height: 1em;
-  }
-  
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
-    fill: #4691f6;
-  }
-  
-  .svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-  }
-  .logo-name{
-    width: 200px;
-    height: 25%;
-    display: inline;
-  }
-.align-section{
-text-align: center
+  width: 1em;
+  height: 1em;
 }
-.text{
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: black;
+}
+
+li {
+  list-style-type: none;
+}
+.svg-icon circle {
+  stroke: black;
+  stroke-width: 1;
+}
+.logo-name {
+  width: 200px;
+  height: 25%;
+  display: inline;
+  margin: 0 auto;
+}
+.align-section {
+  text-align: center;
+}
+.text {
   text-align: left;
   position: relative;
   left: 200px;
   font-size: 0.9375rem;
   margin: 0 0 0 0;
 }
-.text1{
+.text1 {
   text-align: left;
   position: relative;
   left: 200px;
@@ -83,9 +90,7 @@ text-align: center
 }
 
 .main-container {
-
   margin: 10% 30% 10% 30%;
-
 }
 
 .head-line {
@@ -95,4 +100,36 @@ text-align: center
 .head-line img {
   width: 75%;
   height: auto;
+}
+.date{
+  display:flex;
+  flex-direction: row;
+}
+
+.list-icon{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left:50px;
+  font-size: 32px;
+
+}
+p{
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.125rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body{
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+
+}
+h1{
+  position: relative;
+  left: 15%;
+  text-align: left;
+  
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
