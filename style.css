@@ -167,7 +167,6 @@ h1 {
   left: 100px;
   display: flex;
   flex-direction: row;
-  position: relative;
   font-size: 32px;
 }
 
@@ -239,8 +238,6 @@ footer ul li {
 aside {
   margin-left: 5%;
 }
-
-
 
 .flex-half {
   display: flex;
