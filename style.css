@@ -6,51 +6,57 @@
   color: #444;
 }
 
-.box{
+.box {
   height: auto;
   width: auto;
 }
 
-.box img{
+.box img {
   width: 100%;
   height: auto;
-  
 }
+
 .image-size {
   width: 20px;
   height: 20px;
 }
+
 .btn-size {
   width: 20px;
   height: 20px;
 }
+
 .btn-color {
   background-color: #6288a5;
   color: white;
-  padding: 10px 10px 10px 10px
+  padding: 10px 10px 10px 10px;
 }
 
 .nav-bar {
   width: 100%;
-  -moz-box-shadow: 0 8px 6px -6px #999;   
+  -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
   overflow: hidden;
   padding-top: 10px;
 }
+
 .align-right {
   float: right;
   position: relative;
   bottom: 10px;
   top: 5px;
 }
+
 .align-left {
   float: left;
 }
+
 .align-center {
   position: relative;
   left: 350px;
   float: left;
 }
+
 .svg-icon {
   width: 1em;
   height: 1em;
@@ -69,15 +75,18 @@ li {
   stroke: black;
   stroke-width: 1;
 }
+
 .logo-name {
   width: 200px;
   height: 25%;
   display: inline;
   margin: 0 auto;
 }
+
 .align-section {
   text-align: center;
 }
+
 .text {
   text-align: left;
   position: relative;
@@ -85,6 +94,7 @@ li {
   font-size: 0.9375rem;
   margin: 0 0 0 0;
 }
+
 .text1 {
   text-align: left;
   position: relative;
@@ -95,7 +105,6 @@ li {
 
 .main-container {
   margin: 10% 25% 10% 25%;
-  
 }
 
 .head-line {
@@ -106,92 +115,101 @@ li {
   width: 75%;
   height: auto;
 }
-.date{
-  display:flex;
+
+.date {
+  display: flex;
   flex-direction: row;
 }
 
-.list-icon{
+.list-icon {
   display: flex;
   flex-direction: row;
   position: relative;
-  left:50px;
+  left: 50px;
   font-size: 32px;
-
 }
-p{
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+
+p {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
 }
+
 a {
   text-decoration: none;
   color: grey;
 }
-body{
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
-  margin: 0%;
 
+body {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  margin: 0%;
 }
-h1{
+
+h1 {
   position: relative;
   left: 15%;
   text-align: left;
-  
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
-.imagenzota{
+
+.imagenzota {
   height: auto;
   max-width: 100%;
 }
-.textito{
+
+.textito {
   font-size: 0.75rem;
 }
-.colorr{
+
+.colorr {
   color: white;
   background-color: rgb(50, 104, 145);
   width: 30%;
   height: 30px;
   display: inline;
 }
-.list-icon{
+
+.list-icon {
   margin-top: 0%;
   position: relative;
   left: 100px;
 }
 
-.videito{
+.videito {
   width: 100%;
-  height:400px;
+  height: 400px;
 }
 
-.rowws{
-  display:flex;
-  flex-direction:row;
+.rowws {
+  display: flex;
+  flex-direction: row;
   height: 100%;
-
 }
-.rowws h2{
+
+.rowws h2 {
   font-size: 18px;
-
 }
-.rowws p{
+
+.rowws p {
   font-size: 16px;
 }
-.half-div{
+
+.half-div {
   width: 50%;
 }
-.input-wid{
+
+.input-wid {
   height: 30px;
   width: 50%;
 }
 
-.site-index{
+.site-index {
   margin: 3%;
   font-weight: bold;
 }
 
 .float-left {
-  float:left;
+  float: left;
 }
 
 .float-right {
@@ -199,13 +217,12 @@ h1{
 }
 
 .clear-both {
-  clear:both;
+  clear: both;
 }
 
 footer * {
   width: auto;
   text-align: center;
-
 }
 
 footer ul li {
@@ -213,18 +230,21 @@ footer ul li {
   display: inline-block;
   font-size: 10px;
 }
-.half-half{
-  display:flex;
+
+.half-half {
+  display: flex;
   flex-direction: row;
 }
 
 aside {
   margin-left: 5%;
 }
-aside h2{
-  font-size:18px;
+
+aside h2 {
+  font-size: 18px;
 }
-.flex-half{
-display:flex;
-flex-direction:row;
+
+.flex-half {
+  display: flex;
+  flex-direction: row;
 }
