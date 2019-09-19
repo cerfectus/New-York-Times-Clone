@@ -120,7 +120,7 @@ p{
 }
 a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 body{
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -132,4 +132,23 @@ h1{
   text-align: left;
   
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+.imagenzota{
+  height: auto;
+  max-width: 100%;
+}
+.textito{
+  font-size: 0.75rem;
+}
+.colorr{
+  color: white;
+  background-color: rgb(50, 104, 145);
+  width: 30%;
+  height: 30px;
+  display: inline;
+}
+.list-icon{
+  margin-top: 0%;
+  position: relative;
+  left: 100px;
 }
