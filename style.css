@@ -1,6 +1,7 @@
-.wrapper {
+.wrapper div {
   display: grid;
   grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
@@ -38,6 +39,7 @@
   float: right;
   position: relative;
   bottom: 10px;
+  top: 5px;
 }
 .align-left {
   float: left;
@@ -90,7 +92,8 @@ li {
 }
 
 .main-container {
-  margin: 10% 30% 10% 30%;
+  margin: 10% 25% 10% 25%;
+  
 }
 
 .head-line {
@@ -124,6 +127,7 @@ a {
 }
 body{
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  margin: 0%;
 
 }
 h1{
@@ -152,3 +156,30 @@ h1{
   position: relative;
   left: 100px;
 }
+
+.videito{
+  width: 100%;
+  height:400px;
+}
+
+.rowws{
+  display:flex;
+  flex-direction:row;
+  height: 100%;
+
+}
+.rowws h2{
+  font-size: 18px;
+
+}
+.rowws p{
+  font-size: 16px;
+}
+.half-div{
+  width: 50%;
+}
+.input-wid{
+  height: 30px;
+  width: 50%;
+}
+
