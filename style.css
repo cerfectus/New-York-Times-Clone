@@ -1,18 +1,20 @@
-.wrapper div {
+.wrapper {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 33% 33% 33%;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
 }
 
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+.box{
+  height: auto;
+  width: auto;
+}
+
+.box img{
+  width: 100%;
+  height: auto;
+  
 }
 .image-size {
   width: 20px;
@@ -210,4 +212,19 @@ footer ul li {
   margin: 10px;
   display: inline-block;
   font-size: 10px;
+}
+.half-half{
+  display:flex;
+  flex-direction: row;
+}
+
+aside {
+  margin-left: 5%;
+}
+aside h2{
+  font-size:18px;
+}
+.flex-half{
+display:flex;
+flex-direction:row;
 }
