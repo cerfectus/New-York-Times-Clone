@@ -71,6 +71,7 @@
 li {
   list-style-type: none;
 }
+
 .svg-icon circle {
   stroke: black;
   stroke-width: 1;
@@ -121,14 +122,6 @@ li {
   flex-direction: row;
 }
 
-.list-icon {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  left: 50px;
-  font-size: 32px;
-}
-
 p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
@@ -148,7 +141,6 @@ h1 {
   position: relative;
   left: 15%;
   text-align: left;
-
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
 
@@ -173,6 +165,10 @@ h1 {
   margin-top: 0%;
   position: relative;
   left: 100px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 32px;
 }
 
 .videito {
@@ -184,6 +180,10 @@ h1 {
   display: flex;
   flex-direction: row;
   height: 100%;
+}
+
+aside h2 {
+  font-size: 18px;
 }
 
 .rowws h2 {
@@ -240,9 +240,7 @@ aside {
   margin-left: 5%;
 }
 
-aside h2 {
-  font-size: 18px;
-}
+
 
 .flex-half {
   display: flex;
