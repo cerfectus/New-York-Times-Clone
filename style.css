@@ -243,3 +243,8 @@ aside {
   display: flex;
   flex-direction: row;
 }
+
+.to-left{
+  position: relative;
+  left: 800px;
+}
