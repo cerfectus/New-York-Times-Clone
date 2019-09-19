@@ -244,7 +244,7 @@ aside {
   flex-direction: row;
 }
 
-.to-left{
+.to-left {
   position: relative;
   left: 800px;
 }
