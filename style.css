@@ -266,12 +266,51 @@ main{
   background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
-
 }
 
+.div-image h4 {
+  line-height: 1.5;
+}
 
 .wrapper a{
   font-size: 18px;
 }
 
+.story-text {
+  box-sizing: border-box;
+  margin: 0px;
+  position: relative;
+  width: 24%;
+  display: inline-block;
+  padding: 2% 2% 1% 2%;
+
+}
+
+.story-text h6,.story-text p {
+  font-size: 09px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.story-text h6 {
+  display: inline;
+  font-weight: bold;
+}
+
+.story-text {
+  height: 100px;
+
+}
+
+.story-container2{
+  display: inline-block;
+  position: relative;
+  top: 50px;
+}
+
+.story-container{
+  display: inline-block;
+  position: relative;
+  top: 90px;
+}
