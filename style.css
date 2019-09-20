@@ -41,6 +41,8 @@
   display: block;
   clear: both;
   position: fixed;
+  background-color: white;
+  padding-right: 10px;
 }
 
 .align-right {
@@ -134,7 +136,7 @@ p {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
 body {
@@ -254,7 +256,7 @@ aside {
   left: 800px;
 }
 
-main{
+main {
   overflow-x: hidden;
 }
 
@@ -272,7 +274,7 @@ main{
   line-height: 1.5;
 }
 
-.wrapper a{
+.wrapper a {
   font-size: 18px;
 }
 
@@ -283,7 +285,6 @@ main{
   width: 24%;
   display: inline-block;
   padding: 2% 2% 1% 2%;
-
 }
 
 .story-text h6,.story-text p {
@@ -297,16 +298,15 @@ main{
 
 .story-text {
   height: 100px;
-
 }
 
-.story-container2{
+.story-container2 {
   position: relative;
   top: 270px;
   margin-bottom: 10%;
 }
 
-.story-container{
+.story-container {
   position: relative;
   top: 110px;
   display: flex;
