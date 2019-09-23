@@ -12,14 +12,11 @@ Added the whole text to the page <br>
 Finished the socials. <br>
 Add navigation bar and footer to the bottom <br>
 
+### September 23rd, 2019
+Fixed the footer on the bottom of the page <br>
 
 
+### Authors
+@Camfilho
+@Cerfectus
 
-
-
-
-
-
-## Authors
-1. @camfilho
-2. @cerfectus
