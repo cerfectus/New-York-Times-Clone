@@ -277,10 +277,6 @@ main {
   line-height: 1.5;
 }
 
-.wrapper a {
-  font-size: 18px;
-}
-
 .story-text {
   box-sizing: border-box;
   position: relative;
@@ -312,6 +308,12 @@ main {
   display: flex;
 }
 
+nav a,
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
+
 .footer2 {
   position: fixed;
   bottom: 0%;
@@ -334,19 +336,18 @@ main {
 footer {
   margin-bottom: 80px;
   font-size: 2px;
-  color: #999999;
+  color: #999;
 }
 
 footer ul li a {
-  color: #999999;
+  color: #999;
 }
 
 footer ul li a:hover {
-  color: #999999;
+  color: #999;
 }
 
-nav a,
-nav a:hover {
-  color: black;
-  font-weight: bold;
+.wrapper a {
+  font-size: 18px;
 }
+
