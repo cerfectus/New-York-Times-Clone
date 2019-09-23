@@ -308,3 +308,13 @@ main {
   top: 110px;
   display: flex;
 }
+
+.footer2 {
+  position:fixed;
+  bottom: 0%;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  min-height: 10%;
+  margin-bottom: 0%;
+}
