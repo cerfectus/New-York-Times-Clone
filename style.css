@@ -43,6 +43,7 @@
   position: fixed;
   background-color: white;
   padding-right: 10px;
+  z-index: 1;
 }
 
 .align-right {
@@ -240,6 +241,7 @@ footer ul li {
 .half-half {
   display: flex;
   flex-direction: row;
+  margin: 0 10% 0 10%;
 }
 
 aside {
@@ -249,11 +251,12 @@ aside {
 .flex-half {
   display: flex;
   flex-direction: row;
+  margin: 0 10% 0 10%;
 }
 
 .to-left {
   position: relative;
-  left: 800px;
+  left: 459px;
 }
 
 main {
@@ -330,4 +333,20 @@ main {
 
 footer {
   margin-bottom: 80px;
+  font-size: 2px;
+  color: #999999;
+}
+
+footer ul li a {
+  color: #999999;
+}
+
+footer ul li a:hover {
+  color: #999999;
+}
+
+nav a,
+nav a:hover {
+  color: black;
+  font-weight: bold;
 }
