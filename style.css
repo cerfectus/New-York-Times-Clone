@@ -308,12 +308,6 @@ main {
   display: flex;
 }
 
-nav a,
-nav a:hover {
-  color: black;
-  font-weight: bold;
-}
-
 .footer2 {
   position: fixed;
   bottom: 0%;
@@ -339,6 +333,16 @@ footer {
   color: #999;
 }
 
+.wrapper a {
+  font-size: 18px;
+}
+
+nav a,
+nav a:hover {
+  color: black;
+  font-weight: bold;
+}
+
 footer ul li a {
   color: #999;
 }
@@ -347,7 +351,5 @@ footer ul li a:hover {
   color: #999;
 }
 
-.wrapper a {
-  font-size: 18px;
-}
+
 
